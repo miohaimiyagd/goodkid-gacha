@@ -28,6 +28,8 @@ const SONGS = [
   { id: 'tmyk',      title: 'Tell Me You Know',      album: 'gk1', made: '2018-06-04', streams: 45e6 },
   { id: 'alchemist', title: 'Alchemist',             album: 'gk1', made: '2020',       streams: 95e6 },
   { id: 'witches',   title: 'Witches',               album: 'gk1', made: '2017-06-06', streams: 90e6 },
+  { id: 'faster',   title: 'Faster',                 album: 'gk1', made: '2017-06-06', streams: 90e6 },
+  { id: 'atlas',   title: 'Atlas',                   album: 'gk1', made: '2017-06-06', streams: 90e6 },
   // Good Kid 2 (2020)
   { id: 'dwtk',      title: 'Down with the King',    album: 'gk2', made: '2020', streams: 30e6 },
   { id: 'everything',title: 'Everything Everything', album: 'gk2', made: '2020', streams: 36e6 },
@@ -47,12 +49,21 @@ const SONGS = [
   { id: 'bubbly',    title: 'Bubbly',                album: 'gk4', made: '2024', streams: 60e6 },
   { id: 'break',     title: 'Break',                 album: 'gk4', made: '2024', streams: 20e6 },
   { id: 'summer',    title: 'Summer',                album: 'gk4', made: '2024', streams: 22e6 },
+  { id: 'dance',     title: 'Dance Class',           album: 'gk4', made: '2017-06-06', streams: 90e6 },
+  { id: 'inn',       title: 'Premier Inn',           album: 'gk4', made: '2017-06-06', streams: 90e6 },
   // Can We Hang Out Sometime? (2026) - only 2 of 10 songs added so far
   { id: 'wall',      title: 'Wall',                  album: 'cwhos', made: '2026', streams: 15e6 },
   { id: 'cicada',    title: 'Cicada',                album: 'cwhos', made: '2026', streams: 12e6 },
+  { id: 'rift',      title: 'Rift',                  album: 'cwhos', made: '2026', streams: 12e6 },
+  { id: 'eastside',  title: 'Eastside',              album: 'cwhos', made: '2026', streams: 12e6 },
+  { id: 'tea',       title: 'Tea Leaves',            album: 'cwhos', made: '2026', streams: 12e6 },
+  { id: 'alone',     title: 'Alone With Me',         album: 'cwhos', made: '2026', streams: 15e6 },
+  { id: 'ghost',     title: 'Ghost Keeper',          album: 'cwhos', made: '2026', streams: 12e6 },
+  { id: 'tornado',   title: 'Tornado',               album: 'cwhos', made: '2026', streams: 12e6 },
+  { id: 'ginger',    title: 'Ginger Lemonade',       album: 'cwhos', made: '2026', streams: 12e6 },
+  { id: 'coffee',    title: 'Coffee',                album: 'cwhos', made: '2026', streams: 12e6 },
   // Singles
-  { id: 'atlas',     title: 'Atlas',                 album: 'singles', made: '2016-05-13', streams: 38e6 },
-  { id: 'faster',    title: 'Faster',                album: 'singles', made: '2020', streams: 25e6 },
+  { id: 'ground',    title: 'Ground',                album: 'singles', made: '2026', streams: 15e6 },
 
   /* UNRELEASED - add one per song. Always 30,000 pts. Example:
   { id: 'example', title: 'Song Name', album: 'unreleased', made: '2019', unreleased: true,
